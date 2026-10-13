@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/012/579/095/non_2x/flat-lay-of-habit-tracker-book-blue-cup-of-black-coffee-blue-calculator-and-credit-card-on-blue-background-with-copy-space-business-and-good-financial-habit-photo.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.app-container {
+  width: 450px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.expense-form button {
+  padding: 10px 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.total {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background: #f8fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+}
+.expense-item button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.no-expense {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
